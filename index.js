@@ -10,7 +10,7 @@ const axios = require('axios')
 const path = require("path")
 
 
-//client
+//client test
 //upload  render
 app.use(express.static(path.join(__dirname,'/client/build')))
 app.get('*',(req,res)=>{
